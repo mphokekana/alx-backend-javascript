@@ -1,3 +1,4 @@
-import { taskFirst, taskNext } from './0x00-ES6_basic/0-constants.js';
+import getResponseFromAPI from "./0x01-ES6_promise/0-promise.js";
 
-console.log(`${taskFirst()} ${taskNext()}`);
+const response = getResponseFromAPI();
+console.log(response instanceof Promise);
