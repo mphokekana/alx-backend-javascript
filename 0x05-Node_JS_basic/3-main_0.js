@@ -7,4 +7,4 @@ countStudents("nope.csv")
         .catch((error) => {
         console.log(error);
     });
-    
+
