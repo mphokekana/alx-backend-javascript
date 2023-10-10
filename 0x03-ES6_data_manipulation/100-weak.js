@@ -11,3 +11,4 @@ export const queryAPI = (endpoint) => {
     weakMap.set(endpoint, 1);
   }
 };
+
