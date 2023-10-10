@@ -13,4 +13,3 @@ describe('sendPaymentRequestToApi', () => {
     bigBrother.calculateNumber.restore();
   });
 });
-
